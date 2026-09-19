@@ -27,7 +27,6 @@ jobs:
       run: |
         pip install --upgrade pip
         pip install --upgrade cython==0.29.36 buildozer
-
 - name: Accept Android SDK Licenses
         run: |
           mkdir -p $HOME/.android
